@@ -1,7 +1,7 @@
 'use strict'
 const crypto = require('crypto')
 const bindings = require('bindings')('argon2')
-#const Promise = require('any-promise')
+//const Promise = require('any-promise')
 const phc = require('@phc/format')
 
 const limits = Object.freeze(bindings.limits)
